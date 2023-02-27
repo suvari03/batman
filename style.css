@@ -27,24 +27,37 @@ h1 {
 
 }
 
+
+.logo_b{
+    position: relative;
+}
+
+.navList{
+    position : absolute;
+    margin-top: 30px;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .navList a {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 50%; */
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     font-size: 30px;
     color: #dead1b;;
     text-decoration: none;
-    left: 41%;
+    /* left: 41%; */
 
 
 
 }
 
 .navList a:hover {
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     border-radius: 10px;
     color: #dead1b;
     animation-name: example;
@@ -93,7 +106,7 @@ img {
     position: sticky;
     top: 300px;
     left: 0px;
-    z-index: +1;
+    z-index: -1;
 }
 
 .bottom-nav > a {
